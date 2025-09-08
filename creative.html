@@ -1,37 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Creative Corner - Stay Safe Online</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Creative Corner — Stay Safe Online</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <div class="logo">Stay Safe Online</div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="article.html">Feature Article</a></li>
-      <li><a href="advice.html">Advice</a></li>
-      <li><a href="creative.html" class="active">Creative</a></li>
-      <li><a href="reflection.html">Reflection</a></li>
-      <li><a href="resources.html">Resources</a></li>
-    </ul>
-  </nav>
-
-  <section>
-    <h1>Creative Corner</h1>
-    <p>Here’s our series of Instagram-style posts promoting kindness online:</p>
-    <div class="insta">
-      <div>🚫 Cyberbullying is never okay. Words online can hurt just as much as in person.</div>
-      <div>💬 Block. Report. Support. Three steps to protect yourself and friends.</div>
-      <div>🤝 Be the reason someone feels safe online. Stand up. Speak out.</div>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand"><div class="logo-mark">SS</div><div><div style="font-size:0.95rem">Stay Safe Online</div><small style="color:#fff">Creative</small></div></div>
+      <nav>
+        <button class="hamburger" aria-label="menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="article.html">Feature Article</a></li>
+          <li><a href="advice.html">Advice</a></li>
+          <li><a href="creative.html">Creative</a></li>
+          <li><a href="reflection.html">Reflection</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <footer>
-    <p>&copy; 2025 Stay Safe Online | Digital Wellbeing Project</p>
-  </footer>
+  <main class="container">
+    <section class="section">
+      <div class="card fade-in">
+        <h2 class="section-title">Creative Corner</h2>
+        <p class="small">A mini Instagram series promoting kindness online — create these as images in Canva or save the text as captions.</p>
+
+        <div class="insta-grid">
+          <div class="insta-card">🚫 Cyberbullying is never okay. Words online can hurt as much as words in person.</div>
+          <div class="insta-card alt">💬 Block. Report. Support — three steps to protect yourself & friends online.</div>
+          <div class="insta-card">🤝 Be the reason someone feels safe online. Stand up. Speak out.</div>
+        </div>
+
+        <p style="margin-top:12px" class="small">You can convert each card into an Instagram post image (Canva) using the gradient background and bold text.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><p>&copy; 2025 Stay Safe Online</p></div></footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
