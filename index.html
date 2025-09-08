@@ -1,40 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stay Safe Online</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stay Safe Online — Home</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <div class="logo">Stay Safe Online</div>
-    <ul>
-      <li><a href="index.html" class="active">Home</a></li>
-      <li><a href="article.html">Feature Article</a></li>
-      <li><a href="advice.html">Advice</a></li>
-      <li><a href="creative.html">Creative</a></li>
-      <li><a href="reflection.html">Reflection</a></li>
-      <li><a href="resources.html">Resources</a></li>
-    </ul>
-  </nav>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo-mark">SS</div>
+        <div>
+          <div style="font-size:0.95rem">Stay Safe Online</div>
+          <small style="color:#fff; opacity:.9; font-weight:500">Standing Strong Against Cyberbullying</small>
+        </div>
+      </div>
 
-  <header class="hero">
-    <h1>Stay Safe Online</h1>
-    <p class="subtitle">Standing Strong Against Cyberbullying</p>
-    <p>
-      Cyberbullying is one of the biggest challenges young people face today.
-      This site will help you understand what it is, why it matters, and how to
-      protect yourself and support others online.
-    </p>
-    <p><b>Group Members:</b> Add your names here</p>
-    <img src="https://img.freepik.com/free-vector/stop-cyber-bullying-concept_23-2148535664.jpg" alt="Cyberbullying illustration">
+      <nav>
+        <button class="hamburger" aria-label="menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="article.html">Feature Article</a></li>
+          <li><a href="advice.html">Advice</a></li>
+          <li><a href="creative.html">Creative</a></li>
+          <li><a href="reflection.html">Reflection</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left fade-in">
+        <h1>Stay Safe Online</h1>
+        <p class="lead">Helping young people build safe, kind, and respectful online spaces.</p>
+        <p class="names"><strong>Group Members:</strong> Add names here</p>
+        <p class="hero-cta"><a class="btn" href="article.html">Read the Feature Article</a></p>
+      </div>
+
+      <div class="hero-right fade-in delay-1">
+        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=5f2e1b9662f0a0d06f1b4f79b4b2b9b6"
+             alt="Young people on phones">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card fade-in">
+        <h2 class="section-title">Why our site is important</h2>
+        <p class="small">Cyberbullying can follow someone into their most private spaces. Our goal is to explain what it is, provide real tips, and show resources where you can seek help. Use the menu above to explore each section.</p>
+      </div>
+
+      <div class="card fade-in delay-1">
+        <h2 class="section-title">Quick tips</h2>
+        <ul class="resources-list">
+          <li>Use block/mute tools — they work.</li>
+          <li>Keep evidence (screenshots) if someone harasses you.</li>
+          <li>Tell a trusted adult — you don’t have to handle it alone.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
   <footer>
-    <p>&copy; 2025 Stay Safe Online | Digital Wellbeing Project</p>
+    <div class="container">
+      <p>&copy; 2025 Stay Safe Online • Built for Digital Wellbeing Project</p>
+    </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
-
