@@ -1,7 +1,4 @@
-/* css/style.css
-   Modern style, animations, responsive nav + layout
-*/
-
+/* css/style.css - Updated to fill full height pages, modern look */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root{
@@ -71,7 +68,15 @@ body{
 .hero-right img:hover{transform:translateY(-6px)}
 
 /* PAGE CONTENT */
-.section{padding:28px 0 48px}
+.section{
+    padding:48px 0;
+    background: linear-gradient(180deg,#f7f8fc,#ffffff);
+    min-height: calc(100vh - 80px - 60px); /* full height minus header/footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
 .card{
   background:var(--card);
   border-radius:12px;
