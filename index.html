@@ -1,144 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Stay Safe Online: Standing Strong Against Cyberbullying</title>
-  <style>
-    /* RESET */
-    * {margin:0;padding:0;box-sizing:border-box;}
-    body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height:1.6; color:#333; background:#f9f9fb;}
-
-    /* GLOBAL */
-    header, section {padding:80px 20px; max-width:1100px; margin:auto;}
-    h1,h2,h3 {color:#222; margin-bottom:15px;}
-    p {margin-bottom:15px;}
-    img {max-width:100%; height:auto; border-radius:8px;}
-    a {color:#4f46e5; text-decoration:none;}
-
-    /* NAV */
-    nav {position:fixed; top:0; width:100%; background:#4f46e5; color:#fff; z-index:1000;}
-    nav ul {display:flex; justify-content:center; list-style:none; padding:10px;}
-    nav ul li {margin:0 15px;}
-    nav ul li a {color:#fff; font-weight:bold; transition:0.3s;}
-    nav ul li a:hover {color:#ffd700;}
-
-    /* SECTIONS */
-    header {text-align:center;}
-    header h1 {font-size:2.5rem; color:#4f46e5;}
-    header p {font-size:1.2rem; max-width:700px; margin:auto;}
-    
-    section {margin-top:60px;}
-    .card {background:#fff; padding:20px; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); margin-bottom:20px;}
-
-    /* CREATIVE CORNER - Instagram posts */
-    .insta {display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px;}
-    .insta div {background:#4f46e5; color:#fff; border-radius:12px; padding:20px; text-align:center; font-weight:bold; font-size:1.1rem;}
-
-    /* PERSONAL REFLECTION */
-    .reflection {background:#e0e7ff; padding:20px; border-radius:12px;}
-
-    /* RESOURCES */
-    ul.resources {list-style:disc inside;}
-
-    /* FOOTER */
-    footer {text-align:center; background:#4f46e5; color:#fff; padding:20px; margin-top:50px;}
-
-    /* SMOOTH SCROLL */
-    html {scroll-behavior:smooth;}
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stay Safe Online</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- NAVIGATION -->
   <nav>
+    <div class="logo">Stay Safe Online</div>
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#article">Feature Article</a></li>
-      <li><a href="#advice">Advice Column</a></li>
-      <li><a href="#creative">Creative Corner</a></li>
-      <li><a href="#reflection">Personal Reflection</a></li>
-      <li><a href="#resources">Resources</a></li>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="article.html">Feature Article</a></li>
+      <li><a href="advice.html">Advice</a></li>
+      <li><a href="creative.html">Creative</a></li>
+      <li><a href="reflection.html">Reflection</a></li>
+      <li><a href="resources.html">Resources</a></li>
     </ul>
   </nav>
 
-  <!-- HOME -->
-  <header id="home">
-    <h1>Stay Safe Online: Standing Strong Against Cyberbullying</h1>
-    <p>Helping young people build safe, kind, and respectful online spaces.</p>
-    <p><b>Group Members:</b> Add your names here</p>
-    <p>Cyberbullying is one of the biggest challenges young people face in the digital world. Unlike face-to-face bullying, it can happen anytime, anywhere. This site will help you understand what cyberbullying is, why it matters, and how to protect yourself and others.</p>
-    <img src="https://img.freepik.com/free-vector/stop-cyber-bullying-concept_23-2148535664.jpg" alt="Stop Cyberbullying Illustration" />
+  <header class="hero">
+    <h1>Stay Safe Online</h1>
+    <p class="subtitle">Standing Strong Against Cyberbullying</p>
+    <p class="intro">
+      Cyberbullying can happen anytime, anywhere. This site helps you understand
+      what it is, why it matters, and how to protect yourself and others.
+    </p>
+    <p class="names"><b>Group Members:</b> Add your names here</p>
+    <img src="https://img.freepik.com/free-vector/stop-cyber-bullying-concept_23-2148535664.jpg" alt="Cyberbullying illustration">
   </header>
 
-  <!-- FEATURE ARTICLE -->
-  <section id="article">
-    <h2>Why Cyberbullying Matters</h2>
-    <div class="card">
-      <p>Cyberbullying affects millions of young people worldwide. Unlike traditional bullying, it follows people into their homes through phones, tablets, and computers. The impact can be severe — leading to stress, anxiety, lack of sleep, and even depression.</p>
-      <ul>
-        <li><b>Fact 1:</b> 1 in 5 Australian young people have experienced cyberbullying (eSafety Commissioner, 2022).</li>
-        <li><b>Fact 2:</b> Victims are 1.9x more likely to experience low self-esteem and poor academic performance (eSafety Commissioner, 2023).</li>
-      </ul>
-      <img src="https://img.freepik.com/free-vector/cyber-bullying-concept-illustration_114360-14386.jpg" alt="Infographic on cyberbullying" />
-    </div>
-  </section>
-
-  <!-- ADVICE COLUMN -->
-  <section id="advice">
-    <h2>Ask the Wellbeing Wiz!</h2>
-    <div class="card">
-      <h3>Q1: I keep getting mean comments on Instagram posts. Should I delete my account?</h3>
-      <p><b>A:</b> No need to delete your account! Block the people sending the comments, report the posts, and talk to a trusted adult. Remember, bullies want a reaction — not giving them one is powerful.</p>
-    </div>
-    <div class="card">
-      <h3>Q2: My friend is getting bullied in a group chat. What should I do?</h3>
-      <p><b>A:</b> Your support matters! Privately message your friend, check on them, and if safe, speak up in the group chat. Encourage them to block and report the bully.</p>
-    </div>
-    <div class="card">
-      <h3>Q3: In online games, I get nasty messages. How can I stop this?</h3>
-      <p><b>A:</b> Use mute, block, and report tools. Play with friends when possible. Screenshot messages and tell a trusted adult if it continues.</p>
-    </div>
-  </section>
-
-  <!-- CREATIVE CORNER -->
-  <section id="creative">
-    <h2>Creative Corner: Instagram Posts</h2>
-    <div class="insta">
-      <div>🚫 Cyberbullying is never okay. Words online can hurt just as much as words in person.</div>
-      <div>💬 Block. Report. Support. Three steps to protect yourself and friends online.</div>
-      <div>🤝 Be the reason someone feels safe online. Stand up. Speak out.</div>
-    </div>
-  </section>
-
-  <!-- PERSONAL REFLECTION -->
-  <section id="reflection">
-    <h2>Personal Reflection</h2>
-    <div class="reflection">
-      <p><b>What’s one thing I’ve learned about digital wellbeing?</b><br>
-      I’ve learned that cyberbullying can affect people’s mental health just as strongly as in-person bullying.</p>
-      <p><b>What’s one digital habit I’d like to improve or change?</b><br>
-      I want to stop scrolling through negative comment sections that bring me down.</p>
-      <p><b>How could this change benefit my health and wellbeing?</b><br>
-      It would help me stay positive, reduce stress, and focus on supportive online communities.</p>
-    </div>
-  </section>
-
-  <!-- RESOURCES -->
-  <section id="resources">
-    <h2>Resources & Support</h2>
-    <ul class="resources">
-      <li><a href="https://www.esafety.gov.au" target="_blank">eSafety Commissioner</a> – Report cyberbullying and get advice</li>
-      <li><b>Kids Helpline:</b> 1800 55 1800 – Free 24/7 counselling support</li>
-      <li><a href="https://au.reachout.com" target="_blank">ReachOut</a> – Online mental health support</li>
-      <li>Talk to trusted adults – Parents, teachers, or school counsellors</li>
-    </ul>
-  </section>
-
-  <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 Stay Safe Online | Created for Digital Wellbeing Project</p>
+    <p>&copy; 2025 Stay Safe Online | Digital Wellbeing Project</p>
   </footer>
-
 </body>
 </html>
