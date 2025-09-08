@@ -1,43 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advice Column - Stay Safe Online</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Advice Column — Ask the Wellbeing Wiz</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <div class="logo">Stay Safe Online</div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="article.html">Feature Article</a></li>
-      <li><a href="advice.html" class="active">Advice</a></li>
-      <li><a href="creative.html">Creative</a></li>
-      <li><a href="reflection.html">Reflection</a></li>
-      <li><a href="resources.html">Resources</a></li>
-    </ul>
-  </nav>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand"><div class="logo-mark">SS</div><div><div style="font-size:0.95rem">Stay Safe Online</div><small style="color:#fff">Advice</small></div></div>
+      <nav>
+        <button class="hamburger" aria-label="menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="article.html">Feature Article</a></li>
+          <li><a href="advice.html">Advice</a></li>
+          <li><a href="creative.html">Creative</a></li>
+          <li><a href="reflection.html">Reflection</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  <section>
-    <h1>Ask the Wellbeing Wiz!</h1>
-    <div class="card">
-      <h3>Q1: I keep getting mean comments on Instagram. Should I delete my account?</h3>
-      <p><b>A:</b> No need to delete your account! Block the people, report the posts, and talk to a trusted adult. Bullies want a reaction — not giving them one is powerful.</p>
-    </div>
-    <div class="card">
-      <h3>Q2: My friend is getting bullied in a group chat. What should I do?</h3>
-      <p><b>A:</b> Privately message your friend, check on them, and if safe, speak up in the group. Encourage them to block and report the bully.</p>
-    </div>
-    <div class="card">
-      <h3>Q3: In online games, I get nasty messages. How can I stop this?</h3>
-      <p><b>A:</b> Use mute, block, and report tools. Play with friends when possible. Screenshot messages and tell a trusted adult if it continues.</p>
-    </div>
-  </section>
+  <main class="container">
+    <section class="section">
+      <div class="card fade-in">
+        <h2 class="section-title">Ask the Wellbeing Wiz!</h2>
 
-  <footer>
-    <p>&copy; 2025 Stay Safe Online | Digital Wellbeing Project</p>
-  </footer>
+        <div class="q">
+          <h3>Dear Wellbeing Wiz, I spend 5 hours on TikTok every night and feel exhausted. How can I cut back without missing out?</h3>
+          <div class="answer">Start small: set a 30-minute bedtime screen curfew and use your phone's screen time controls. Replace late-night scrolling with a short walk, music or a hobby. Tell friends you’re reducing time — they'll support you instead of making you feel left out.</div>
+        </div>
+
+        <div class="q">
+          <h3>Dear Wellbeing Wiz, I keep getting mean comments on Instagram. Should I delete my account?</h3>
+          <div class="answer">Not necessarily. Use block & restrict tools, turn off comments, and report abusive users. If the platform is harming you more than helping, taking a break is OK. Save screenshots and tell a trusted adult if comments are threatening.</div>
+        </div>
+
+        <div class="q">
+          <h3>Dear Wellbeing Wiz, My friend is being bullied in a group chat. What should I do?</h3>
+          <div class="answer">Check in with them privately, offer support, and encourage blocking/reporting. If you're comfortable, call out the behaviour in the chat firmly (without escalating). If it's a safety issue, tell a teacher or guardian.</div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><p>&copy; 2025 Stay Safe Online</p></div></footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
