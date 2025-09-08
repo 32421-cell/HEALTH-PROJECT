@@ -1,0 +1,106 @@
+/* GOOGLE FONT */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f7f8fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* NAVIGATION */
+nav {
+  background: #4f46e5;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ffd700;
+}
+
+/* HEADER / HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  color: #4f46e5;
+}
+.hero .subtitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 20px;
+}
+.hero img {
+  margin-top: 30px;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* CONTENT SECTIONS */
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* CREATIVE CORNER */
+.insta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.insta div {
+  background: #4f46e5;
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+/* REFLECTION */
+.reflection {
+  background: #e0e7ff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* FOOTER */
+footer {
+  background: #4f46e5;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
