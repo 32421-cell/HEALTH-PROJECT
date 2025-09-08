@@ -1,39 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Feature Article - Stay Safe Online</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Why Cyberbullying Matters — Feature Article</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <div class="logo">Stay Safe Online</div>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="article.html" class="active">Feature Article</a></li>
-      <li><a href="advice.html">Advice</a></li>
-      <li><a href="creative.html">Creative</a></li>
-      <li><a href="reflection.html">Reflection</a></li>
-      <li><a href="resources.html">Resources</a></li>
-    </ul>
-  </nav>
-
-  <section>
-    <h1>Why Cyberbullying Matters</h1>
-    <div class="card">
-      <p>Cyberbullying affects millions of young people worldwide. Unlike traditional bullying, it follows people into their homes through phones, tablets, and computers. The impact can be severe — leading to stress, anxiety, lack of sleep, and even depression.</p>
-      <ul>
-        <li><b>Fact 1:</b> 1 in 5 Australian young people have experienced cyberbullying (eSafety Commissioner, 2022).</li>
-        <li><b>Fact 2:</b> Victims are 1.9x more likely to experience low self-esteem and poor academic performance (eSafety Commissioner, 2023).</li>
-      </ul>
-      <img src="https://img.freepik.com/free-vector/cyber-bullying-concept-illustration_114360-14386.jpg" alt="Cyberbullying infographic">
+  <!-- header/nav (same as index) -->
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo-mark">SS</div>
+        <div><div style="font-size:0.95rem">Stay Safe Online</div><small style="color:#fff">Feature Article</small></div>
+      </div>
+      <nav>
+        <button class="hamburger" aria-label="menu">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="article.html">Feature Article</a></li>
+          <li><a href="advice.html">Advice</a></li>
+          <li><a href="creative.html">Creative</a></li>
+          <li><a href="reflection.html">Reflection</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <footer>
-    <p>&copy; 2025 Stay Safe Online | Digital Wellbeing Project</p>
-  </footer>
+  <main class="container">
+    <section class="section">
+      <div class="card fade-in">
+        <h2 class="section-title">Why Cyberbullying Matters</h2>
+        <p>Cyberbullying is bullying that happens online or through mobile devices. It may include mean messages, spreading rumours, exclusion, or sharing private images without consent. Because it happens online, it can be persistent and can be seen by many people quickly.</p>
+        <p class="small">For young people, this can cause anxiety, sleep problems, lower school performance and sadness. It's important to take online harassment seriously and know how to respond.</p>
+
+        <div class="stats" style="margin-top:14px">
+          <div class="stat">
+            <strong>1 in 5</strong>
+            <span>Australian young people reported being cyberbullied (eSafety & surveys).</span>
+          </div>
+          <div class="stat">
+            <strong>1.9x</strong>
+            <span>Higher chance of low self-esteem for victims (studies & reports).</span>
+          </div>
+        </div>
+
+        <p style="margin-top:12px" class="small">Sources: eSafety Commissioner reports and mental health studies — include citation details in your project submission. Add exact link references in Resources page if required by your teacher.</p>
+
+        <img style="margin-top:12px;border-radius:10px" src="https://images.unsplash.com/photo-1531403009284-440f080d1e0e?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=2b6c3b0b3c3b3b8d" alt="infographic example">
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><p>&copy; 2025 Stay Safe Online</p></div></footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
